@@ -171,7 +171,7 @@ class HPLTool:
                
     def create_dat_file(self, n, nb, p, q):
         dat = HPL_DAT.substitute(dict(N=n, NB=nb, P=p, Q=q))
-        with open('HPL.dat', 'wb') as f:
+        with open('HPL.dat', 'w') as f:
             f.write(dat)
         f.close()
 
