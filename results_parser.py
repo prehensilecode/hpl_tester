@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 Parses all output files after slurm array is finished running to determine the best
 HPL options for a given configuration
