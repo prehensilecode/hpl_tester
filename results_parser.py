@@ -58,7 +58,7 @@ class HPLParser:
         return sorted_results
 
     def print_all_to_file(self, file_name, all_results):
-        with open(file_name, 'wb') as f:
+        with open(file_name, 'w') as f:
             for dir, results in all_results.items():
                 f.write("**************************\n")
                 f.write(dir + "\n")
